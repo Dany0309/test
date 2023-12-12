@@ -1,0 +1,36 @@
+.content__bet_container {
+  width: 296px;
+  height: 174px;
+  border-radius: 40px;
+  background: #ededf2;
+  display: grid;
+  grid-template-rows: 20px 50px 20px;
+  grid-row-gap: 6px;
+  padding: 32px;
+}
+
+.content__bet_container p,
+h2,
+h4 {
+  font-family: Muller, sans-serif;
+}
+
+.content__bet_container p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.content__bet_container h2 {
+  font-family: Muller, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.content__bet_container h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #95959d;
+}

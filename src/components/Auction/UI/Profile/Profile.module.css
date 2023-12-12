@@ -1,0 +1,18 @@
+.content__profile {
+  width: 228px;
+  height: 70px;
+  border-radius: 23px;
+  background-color: #ededf2;
+  padding: 11px 16px;
+  display: grid;
+  grid-template-columns: 48px 132px;
+  align-items: center;
+  grid-column-gap: 16px;
+}
+
+.content__profile p {
+  font-family: Muller, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+}

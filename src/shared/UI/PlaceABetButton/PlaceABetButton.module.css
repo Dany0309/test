@@ -1,0 +1,23 @@
+.container {
+  width: 296px;
+  height: 70px;
+  border-radius: 40px;
+  background: #46f4db;
+  border: 0;
+  cursor: pointer;
+}
+
+.text {
+  font-family: Muller, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.container:hover {
+  background: linear-gradient(180deg, #46f4db 27.08%, #57d272 100%);
+}
+
+.container:active {
+  background: #57d272;
+}

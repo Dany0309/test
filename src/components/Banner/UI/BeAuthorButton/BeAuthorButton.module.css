@@ -1,0 +1,32 @@
+.container {
+  width: 247px;
+  height: 70px;
+  top: 20px;
+  left: 20px;
+  border-radius: 40px;
+  border: 5px solid #46f4db;
+  cursor: pointer;
+  background-color: black;
+}
+
+.text {
+  font-family: Muller, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+}
+
+.container:hover {
+  background: linear-gradient(180deg, #46f4db 27.08%, #57d272 100%);
+  border: 0;
+}
+
+.container:focus {
+  background-color: #46f4db;
+  border: 0;
+}
+
+.container:active {
+  background-color: #57d272;
+}

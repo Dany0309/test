@@ -1,0 +1,59 @@
+.container {
+  width: 624px;
+  height: 174px;
+  border-radius: 40px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: 7px 25px 48px 20px;
+  padding: 16px;
+  grid-row-gap: 9px;
+}
+
+.sticker_img {
+  grid-column: 1 / span 3;
+  grid-row-start: 1;
+}
+
+.sticker_name {
+  grid-column-start: 2;
+}
+
+.profile_info {
+  display: grid;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  grid-template-columns: 24px 1fr;
+  gap: 5px;
+  align-items: center;
+}
+
+.name_profile {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.sticker_price_info {
+  display: grid;
+  grid-column-start: 2;
+  grid-row-start: 4;
+  grid-template-columns: auto 1fr;
+  gap: 5px;
+  align-items: center;
+}
+
+.sticker_name {
+  grid-row-start: 3;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.sticker_price,
+.sticker_price_transfer {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.sticker_price_transfer {
+  color: #95959d;
+}

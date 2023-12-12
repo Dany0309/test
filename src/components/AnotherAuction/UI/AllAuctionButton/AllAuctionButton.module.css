@@ -1,0 +1,23 @@
+.container {
+  width: 296px;
+  height: 70px;
+  border-radius: 40px;
+  background-color: white;
+  border: 5px solid #46f4db;
+  cursor: pointer;
+}
+
+.text {
+  font-family: Muller, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.container:hover {
+  background-color: #46f4db;
+}
+
+.container:active {
+  background-color: #57d272;
+  border: 0;
+}
